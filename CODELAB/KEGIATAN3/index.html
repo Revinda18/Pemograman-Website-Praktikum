@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <div class="max-w-[90rem] mx-auto bg-sky-500 p-4">
+        <p class="block text-[2.50rem] text-black text-center my-4">FORM PENDAFTARAN</p>
+        
+        <div class="container">
+            <div class="input-field">
+                <p class="block text-3xl text-black">Nama</p>
+                <input type="text" id="nama" class="border rounded p-2 w-full" placeholder="Masukkan nama Anda" />
+            </div>
+
+            <div class="input-field">
+                <p class="block text-3xl text-black">Alamat</p>
+                <input type="text" id="alamat" class="border rounded p-2 w-full" placeholder="Masukkan alamat Anda" />
+            </div>
+
+            <div class="input-field">
+                <p class="block text-3xl text-black">Email</p>
+                <input type="email" id="email" class="border rounded p-2 w-full" placeholder="Masukkan email Anda" />
+            </div>
+
+            <p class="submit-button text-center" onclick="submitForm()">SUBMIT</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

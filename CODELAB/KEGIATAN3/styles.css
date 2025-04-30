@@ -1,0 +1,25 @@
+.input-field {
+    margin-bottom: 20px; /* Jarak antara input */
+}
+
+.container {
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    padding: 20px; /* Padding di dalam kontainer */
+}
+
+.submit-button {
+    margin-top: 20px; /* Jarak atas untuk tombol submit */
+    display: inline-block; /* Agar tombol berada dalam satu baris */
+    padding: 10px 20px; /* Padding untuk tombol */
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #ffffff; /* Warna teks tombol */
+    border-radius: 5px; /* Sudut melengkung tombol */
+    text-align: center; /* Agar teks berada di tengah */
+    cursor: pointer; /* Mengubah cursor saat hover */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
